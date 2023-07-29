@@ -1,0 +1,57 @@
+.header {
+  width: 100%;
+  height: max-content;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 0.4rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand__name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(217, 5, 5);
+  font-family: "Dancing Script", cursive;
+  cursor: pointer;
+}
+
+.brand__name:hover {
+  color: rgba(217, 5, 5, 0.587);
+}
+
+.search__box {
+  width: 50%;
+  height: 2rem;
+  border-radius: 1rem;
+  border: 2px solid #ccc;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+
+.search__box:hover {
+  border: 2px solid rgb(217, 5, 5);
+}
+
+.search__input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.search__icons {
+  font-size: 1.5rem;
+  fill: #ccc;
+  cursor: pointer;
+}
+
+.search__icons:hover {
+  fill: rgb(217, 5, 5);
+}

@@ -1,0 +1,16 @@
+.card {
+  width: 20rem;
+  height: 13rem;
+}
+
+.category__thumbnil {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.category__name {
+  font-size: 1rem;
+  font-weight: 700;
+}

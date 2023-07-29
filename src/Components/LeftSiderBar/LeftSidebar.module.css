@@ -1,0 +1,33 @@
+.left__sidebar__container {
+  width: 20%;
+  height: 100%;
+}
+
+.navigation__container {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.navigation__item {
+  width: 100%;
+  height: max-content;
+  padding: 0.4rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navigation__icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.navigation__name {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--text-color);
+}
